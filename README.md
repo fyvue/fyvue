@@ -1,4 +1,4 @@
-# KLB Starter Template
+# fyvue Starter Template
 
 Vue3 + fyvue + SSR
 
