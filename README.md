@@ -2,4 +2,4 @@
 
 Vue3 + fyvue + SSR
 
-    npx degit fyvue/fyvue my-app
+    npx degit fyvue/fyvue#main my-app
