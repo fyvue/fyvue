@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@fy-/ui/style.css";
+
+.fyui-nav .fyui-nav__wrapper {
+    @apply max-w-none px-4; // custom navbard width
+}
+
+.website {
+    @apply bg-fv-neutral-200 dark:bg-fv-neutral-800 text-black dark:text-white min-h-screen;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to left, rgba(53,60,72,.1), rgba(20,33,40, .1)) !important;
+
+    .website__main {
+        @apply flex flex-grow;
+    }
+    .website__min-height, &.min-height {
+        @apply flex-grow flex flex-col;
+    }
+    .website__container {
+        @apply   px-4 py-2; //max-w-screen-xl container mx-auto
+    }
+    .website__footer {
+        @apply bg-fv-neutral-50 text-fv-neutral-600  text-center mb-0;
+        @apply dark:bg-fv-neutral-900 dark:text-fv-neutral-100;
+    }
+}
