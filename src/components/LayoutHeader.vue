@@ -20,6 +20,10 @@ const query = ref<string>();
     <template v-slot:logo>
       <img src="@/assets/images/logo.svg" class="h-10" />
     </template>
+    <template v-slot:buttons>
+      <button class="btn primary">CTA</button>
+      <button class="btn neutral">CTA2</button>
+    </template>
     <template v-slot:custom>
       <div class="fyui-nav__search">
         <form
